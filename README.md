@@ -10,9 +10,10 @@ This is work in progress intended to be finished today, 2024-06-28,
 so if you are interested, check the page periodically.
 
 I started my journey with softare engineering ~30 years ago,
-professionally worked with C, C++, Java, Smalltalk, Python, Haskell, Agda, Scala
-and more. I currently see the microservice catastrophe marching and the rise
-of ancient evil like Go.
+professionally worked with C, C++, Java, Smalltalk, C#, Python, Haskell, Agda, Scala
+and more.
+
+I currently see the microservice catastrophe marching and the rise of ancient evil like Go.
 
 My interests include:
 
