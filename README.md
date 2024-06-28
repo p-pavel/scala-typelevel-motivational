@@ -1,7 +1,8 @@
 # (Hopefully) motivational talk on using Scala as specification language
 
 The code is in [src](https://github.com/p-pavel/scala-typelevel-motivational/tree/main/src) folder,
-I will collect it heare as text.
+I will collect it hear as text. Please take a look inside the `src`, the code IS mostly
+text and organised as a book.
 
 This is work in progress intended to be finished today, 2024-06-28,
 so if you are interested, check the page periodically.
@@ -17,7 +18,7 @@ My interests include:
   - type level and macro programming utilities
   - development of [tagless final ideas](https://duckduckgo.com/?q=tagless+final+interpreters&t=osx&ia=web) for
     Scala and its capabilities (see [this](https://github.com/p-pavel/osgi-scala-maven/tree/main/modelling) to get a high level picture)
-  - development of [parametric parametricity](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf) 
+  - development of [parametric parametricity](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf)
     ideas for Scala
   - development of techniques and tools to push Scala into proof assistant category
     similar to Agda (ability to discuss the topic with the type checker)
@@ -35,8 +36,8 @@ My interests include:
   in JVM sense
   - a tool to automatically generate OSGi bundles and Karaf feature repositories
     from Scala libraries (the development of [this theme](https://github.com/p-pavel/osgi-scala))
-- IDE to support proper Scala development wich isolates the developer from dealing with project and 
-  dependencies focusing on automaticall finding the dependencies from maven. Tightly integrated with 
+- IDE to support proper Scala development wich isolates the developer from dealing with project and
+  dependencies focusing on automaticall finding the dependencies from maven. Tightly integrated with
   OSGi container to get the illusion of live code development and automating proper OSGi bundle creation
 
 Unfortunately, there're little chances to continue this work due to time limitations (limiting factor beeing the cigarretes and food supple and also accomodation) and the
