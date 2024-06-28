@@ -1,4 +1,4 @@
-# (Hopefully) motivational talk on using Scala as specification language
+# (Hopefully) motivational talk on using Scala as a specification language
 
 The code is in [src](https://github.com/p-pavel/scala-typelevel-motivational/tree/main/src) folder,
 I will collect it hear as text. PLEASE take a look inside the `src`, the code IS mostly
