@@ -7,7 +7,7 @@ text and organised as a book:
 ![src](assets/src.png)
 
 This is work in progress intended to be finished today, 2024-06-28,
-so if you are interested, check the page periodically.
+so if you are interested, check the page periodically or look at the [commits](https://github.com/p-pavel/scala-typelevel-motivational/commits/main/).
 
 I started my journey with softare engineering ~30 years ago,
 professionally worked with C, C++, Java, Smalltalk, C#, Python, Haskell, Agda, Scala
@@ -43,8 +43,11 @@ My interests include:
   dependencies focusing on automaticall finding the dependencies from maven. Tightly integrated with
   OSGi container to get the illusion of live code development and automating proper OSGi bundle creation
 
-Unfortunately, there're little chances to continue this work due to time limitations (limiting factor beeing the cigarretes and food supple and also accomodation) and the
-lack of general interest in the topic.
+Unfortunately, there're little chances to continue this work due to time limitations (limiting factor beeing the cigarretes and food supple and also accomodation) and the lack of general interest in the topic.
 
-But if you are interested, please consider [sponsorship](https://github.com/sponsors/p-pavel) and participating
-in the [discussions](https://github.com/p-pavel/scala-typelevel-motivational/discussions)
+But if YOA are interested, please consider [sponsorship](https://github.com/sponsors/p-pavel) and participating
+in the [discussions](https://github.com/p-pavel/scala-typelevel-motivational/discussions).
+
+From my experience in latest years I can't make living from being a software engineer, so this is an experiment with
+alternatives. Your sponsorship will allow me to buy a pack of cigarettes or two, maybe some food or even
+pay the rent, so I can continue on the list above.
