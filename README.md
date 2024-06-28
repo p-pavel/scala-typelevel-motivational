@@ -3,12 +3,12 @@
 The code is in [src](https://github.com/p-pavel/scala-typelevel-motivational/tree/main/src) folder,
 I will collect it heare as text.
 
-This is work in progress intended to be finished today, 2024-06-28, 
+This is work in progress intended to be finished today, 2024-06-28,
 so if you are interested, check the page periodically.
 
 I started my journey with softare engineering ~30 years ago,
-professionally worked with C, C++, Java, Smalltalk, Python, Haskell, Agda, Scala 
-and more. I currently see the microservice catastrophe marching and the rise 
+professionally worked with C, C++, Java, Smalltalk, Python, Haskell, Agda, Scala
+and more. I currently see the microservice catastrophe marching and the rise
 of ancient evil like Go.
 
 My interests include:
@@ -25,7 +25,7 @@ My interests include:
     (consider industrial patterns like "event sourcing", or "CQRS" expressed not as
     pity words but as formal executable spec)
   - develop the techniques for API design and evolution connected to the types in Scala
-    - Can I give the immutable source files to the developers and if they come with
+    - Can I pass the immutable source files to the developers and if they come with
       something that will make this code compile I can be pretty sure they
       implemented the spec? (yes, we can run scalacheck and munit in compile time)
     - Can API evolution be connected to subtyping?

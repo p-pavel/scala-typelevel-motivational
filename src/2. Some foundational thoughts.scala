@@ -28,6 +28,8 @@ package com.perikov.typelevel.motivational
   *
   *   - correct by construction
   *   - correct by verification at compile time
+  * 
+  * In scala we can put constraint on types using bounds only. 
   *
   * Let's talk in more details about some of these topics.
   *
