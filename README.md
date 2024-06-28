@@ -19,16 +19,18 @@ My interests include:
     Scala and its capabilities (see [this](https://github.com/p-pavel/osgi-scala-maven/tree/main/modelling) to get a high level picture)
   - development of [parametric parametricity](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf) 
     ideas for Scala
-  - development of techniques and tools to push Scala into proof assistant category 
+  - development of techniques and tools to push Scala into proof assistant category
     similar to Agda (ability to discuss the topic with the type checker)
-  - express industrial knowledge as Scala specs and develop the libraries from this 
+  - express industrial knowledge as Scala specs and develop the libraries from this
     (consider industrial patterns like "event sourcing", or "CQRS" expressed not as
     pity words but as formal executable spec)
-  - develop the ideas of API design and evolution connected to the types in Scala
-    - Can I get the immutable source files to the developers and if they come with 
-      something that wil make this code compile I can be pretty sure they
+  - develop the techniques for API design and evolution connected to the types in Scala
+    - Can I give the immutable source files to the developers and if they come with
+      something that will make this code compile I can be pretty sure they
       implemented the spec? (yes, we can run scalacheck and munit in compile time)
     - Can API evolution be connected to subtyping?
+    - - Can the structure of our specs reflect the stages of the design, including
+        elaboration and refinement leading to more and precise types?
 - software engineering with Scala on JVM using OSGi and general capability/requirement model and packages
   in JVM sense
   - a tool to automatically generate OSGi bundles and Karaf feature repositories
