@@ -46,4 +46,5 @@ My interests include:
 Unfortunately, there're little chances to continue this work due to time limitations (limiting factor beeing the cigarretes and food supple and also accomodation) and the
 lack of general interest in the topic.
 
-But if you are interested, please consider [sponsorship](https://github.com/sponsors/p-pavel)
+But if you are interested, please consider [sponsorship](https://github.com/sponsors/p-pavel) and participating
+in the [discussions](https://github.com/p-pavel/scala-typelevel-motivational/discussions)
