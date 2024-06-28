@@ -30,10 +30,7 @@ package com.perikov.typelevel.motivational
   *
   * In Scala we can put constraint on types using bounds only.
   *
-  * Let's talk in more details about some of these topics.
-  *
-  * @todo
-  *   elaborate
+  * Let's talk in more details about some of these topics in the following sections.
   */
 object Foundations:
 end Foundations

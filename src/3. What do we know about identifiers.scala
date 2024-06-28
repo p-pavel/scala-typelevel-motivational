@@ -31,8 +31,14 @@ trait PlayingWithIdentifier:
     */
   type QuotedIdentifier <: String
   type UnqotedIdentifierLike <: String
+
+  /** We have a nasty problem here. Both [[Keyword]] and [[UnqotedIdentifier]] looks alike This will
+    * be a theme for the next sections.
+    */
   type Keyword <: UnqotedIdentifierLike
   type UnqotedIdentifier <: UnqotedIdentifierLike
+
+  /** Identifier is a "precise type" -- the union of two sub-types */
   type Identifier = QuotedIdentifier | UnqotedIdentifier
 
   /** This gives us a row idea of sub-types/sub-sets representation of the problem domain.
