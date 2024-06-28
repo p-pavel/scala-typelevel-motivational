@@ -69,10 +69,10 @@ end TranditionalDesign
   */
 trait AlmostTraditionalDesign:
 
-  /** We're already using advanced Scala feautre: abstrat types not available in majority of the
-    * languages.
+  /** We're already using advanced Scala feautre: abstract types not available in majority of the
+    * languages that opens the possibility to reason about parametric parametricity.
     *
-    * Another advances feature here is type bounds. We now that not all strings are valid
+    * Another advanced feature here is type bounds. We can instantly see that not all strings are valid
     * [[Identifier]]s, but all [[Identifier]]s are strings.
     */
   type Identifier <: String
