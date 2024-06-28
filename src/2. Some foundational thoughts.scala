@@ -15,8 +15,8 @@ package com.perikov.typelevel.motivational
   *   - good type systems allow us to produce optimal or near-optimal runtime data representation of
   *     the data structures without resorting to the variants of runtime type checks.
   *
-  *   - separation of concerns some data are not needed at runtime at all and can stay completely on
-  *     type-checking stage
+  *   - separation of concerns: some data are not needed at runtime at all and can stay completely
+  *     on type-checking stage
   *
   *   - early error detection the earlier we detect the error the better. Detecting in runtime what
   *     could be detected at type checking stage is the worst case. It's often too late and too
@@ -25,11 +25,14 @@ package com.perikov.typelevel.motivational
   *
   * We should also talk about to general approaches to what can be achieved with types and
   * metaprogramming:
-
+  *
   *   - correct by construction
   *   - correct by verification at compile time
-  * 
+  *
   * Let's talk in more details about some of these topics.
+  *
+  * @todo
+  *   elaborate
   */
 object Foundations:
 end Foundations
