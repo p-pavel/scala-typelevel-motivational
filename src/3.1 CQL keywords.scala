@@ -1,7 +1,7 @@
 package com.perikov.typelevel.motivational
 
 
-/** let update our knowledge on keywords *
+/** let's update our knowledge on keywords *
   *
   * @see
   *   https://cassandra.apache.org/doc/latest/cassandra/developing/cql/appendices.html#appendix-A
@@ -42,6 +42,17 @@ trait Keywords:
       "",
       [X, Y] =>> ToString[X] + "|" + ToString[Y]
     ]
+
+
+  /**
+    * @todo tell the story of reserved keywords 
+    * leading to the trait that can be passed to other for refinement (collecting all keywords)
+    */
+  object TheStoryOfReservedKeywords
+     
+
+  //TODO: Tell the story of putting proof obligations here and using the macro 
+  // utilities to look at types 
   import macros.*
   typeReprStructureString[ReservedKeywordRegex].compileInfo
 

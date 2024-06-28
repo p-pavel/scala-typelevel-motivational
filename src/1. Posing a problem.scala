@@ -47,7 +47,7 @@ end TranditionalDesign
   * Traditionally this would mean doing some checks at runtime and throwing exceptions, or other
   * ways to signal the error.
   *
-  * This would mean that moment is completely disconnected from the moment the code.
+  * This would mean that moment is completely disconnected from the moment the code is written.
   *
   * Putting comments into the code will not help much, as the comments are not checked by the
   * compiler and quickly become outdated and are rarely read by the developers.
@@ -59,21 +59,26 @@ end TranditionalDesign
   * synonym for "I'm not aware of this" even if "this" are things like set intersection/unions, etc.
   *
   * Nevertheless, we will proceed with the following design assuming that we can approach the state
-  * where code is the complete specification of the problem domain, much better then textual
-  * documentation for the following reason: it can be mechanically checked by the compiler. "The
-  * code does not lie" and is very good for reuse, because type checker's work costs nothing
+  * where the code is the complete specification of the problem domain, much better then textual
+  * documentation for the following reason: it can be mechanically checked by the compiler.
+  *
+  * "The code does not lie" and is very good for reuse, because a type-checker's work costs nothing
   * compared to human work.
   *
-  * Compared to AI type checker is based on the formal system too, that was checked by somebody for
-  * soundness, at least in theory.
+  * Compared to AI, type checker is hopefully based on the formal system too, that was checked by
+  * somebody for soundness, at least in theory.
+  *
+  * @see
+  *   Scala's DOT soundness paper
+  *   https://namin.seas.harvard.edu/sites/projects.iq.harvard.edu/files/soundness_oopsla16.pdf
   */
 trait AlmostTraditionalDesign:
 
-  /** We're already using advanced Scala feautre: abstract types not available in majority of the
-    * languages that opens the possibility to reason about parametric parametricity.
+  /** We're already using advanced Scala feautre here: abstract types are not available in majority
+    * of the languages that opens the possibility to reason about parametric parametricity.
     *
-    * Another advanced feature here is type bounds. We can instantly see that not all strings are valid
-    * [[Identifier]]s, but all [[Identifier]]s are strings.
+    * Another advanced feature here is type bounds. We can instantly see that not all strings are
+    * valid [[Identifier]]s, but all [[Identifier]]s are strings.
     */
   type Identifier <: String
 
