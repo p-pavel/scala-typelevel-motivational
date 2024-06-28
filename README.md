@@ -11,6 +11,8 @@ My interests include:
   - type level and macro programming utilities
   - development of [tagless final ideas](https://duckduckgo.com/?q=tagless+final+interpreters&t=osx&ia=web) for
     Scala and its capabilities (see [this](https://github.com/p-pavel/osgi-scala-maven/tree/main/modelling) to get a high level picture)
+  - development of [parametric parametricity](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf) 
+    ideas for Scala
   - development of techniques and tools to push Scala into proof assistant category 
     similar to Agda (ability to discuss the topic with the type checker)
   - express industrial knowledge as Scala specs and develop the libraries from this 
