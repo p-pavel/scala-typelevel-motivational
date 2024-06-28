@@ -1,8 +1,10 @@
 # (Hopefully) motivational talk on using Scala as specification language
 
 The code is in [src](https://github.com/p-pavel/scala-typelevel-motivational/tree/main/src) folder,
-I will collect it hear as text. Please take a look inside the `src`, the code IS mostly
-text and organised as a book.
+I will collect it hear as text. PLEASE take a look inside the `src`, the code IS mostly
+text and organised as a book:
+
+![src](assets/src.png)
 
 This is work in progress intended to be finished today, 2024-06-28,
 so if you are interested, check the page periodically.
