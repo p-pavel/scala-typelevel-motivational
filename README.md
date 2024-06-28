@@ -1,9 +1,14 @@
-# Hopefully motivational talk on using Scala as specification language
+# (Hopefully) motivational talk on using Scala as specification language
 
 The code is in `src` folder, I will collect it heare as text.
 
 This is work in progress intended to be finished today, 2024-06-28, 
 so if you are interested, check the page periodically.
+
+I started my journey with softare engineering ~30 years ago,
+professionally worked with C, C++, Java, Smalltalk, Python, Haskell, Agda, Scala 
+and more. I currently see the microservice catastrophe marching and the rise 
+of ancient evil like Go.
 
 My interests include:
 
